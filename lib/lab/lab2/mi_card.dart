@@ -58,10 +58,12 @@ class MiCard extends StatelessWidget {
               TextButton(
                 onPressed: () => Get.to(() => DicePage()),
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.redAccent,
+                  foregroundColor: Colors.white,
+                  backgroundColor: Colors.green[600],
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 ),
                 child: const Text(
-                  'Lab 3',
+                  'Dicee',
                   style: TextStyle(fontSize: 18),
                 ),
               ),

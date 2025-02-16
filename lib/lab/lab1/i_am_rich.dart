@@ -55,10 +55,12 @@ class IAmRich extends StatelessWidget {
             TextButton(
               onPressed: () => Get.to(() => const MiCard()),
               style: TextButton.styleFrom(
-                foregroundColor: Colors.blue,
+                foregroundColor: Colors.white,
+                backgroundColor: Colors.green[600],
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               ),
               child: const Text(
-                'Lab 2',
+                'Mi Card',
                 style: TextStyle(fontSize: 18),
               ),
             ),

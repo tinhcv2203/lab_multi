@@ -20,6 +20,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.1.0
 
 flutter:
   uses-material-design: true
@@ -28,3 +30,10 @@ flutter:
     - assets/images/
     - assets/images/dices/
     - assets/images/balls/
+    - assets/xylophone/note1.wav
+    - assets/xylophone/note2.wav
+    - assets/xylophone/note3.wav
+    - assets/xylophone/note4.wav
+    - assets/xylophone/note5.wav
+    - assets/xylophone/note6.wav
+    - assets/xylophone/note7.wav

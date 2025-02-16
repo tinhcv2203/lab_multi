@@ -1,5 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:lab_multi/lab/lab5/xylophone.dart';
 
 class BallPage extends StatelessWidget {
   @override
@@ -11,6 +13,21 @@ class BallPage extends StatelessWidget {
         title: const Text('GeeksforGeeks'),
       ),
       body: const Ball(),
+      floatingActionButton: Align(
+        alignment: Alignment.bottomCenter, // Căn giữa dưới
+        child: TextButton(
+          onPressed: () => Get.to(() => Xylophone()),
+          style: TextButton.styleFrom(
+            foregroundColor: Colors.white,
+            backgroundColor: Colors.green[600],
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          ),
+          child: const Text(
+            'Xylophone',
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          ),
+        ),
+      ),
     );
   }
 }
@@ -32,7 +49,6 @@ class _BallState extends State<Ball> {
       child: TextButton(
         onPressed: () {
           setState(() {
-            // Random.nextInt(n) returns a random integer from 0 to n-1
             ballNumber = Random().nextInt(5) + 1;
           });
         },
