@@ -48,7 +48,7 @@ class Xylophone extends StatelessWidget {
             const SizedBox(height: 20),
             Center(
               child: TextButton(
-                onPressed: () => Get.to(() => Quizzler()), // Chuyển sang Quizzler
+                onPressed: () => Get.to(() => Quizzler()),
                 style: TextButton.styleFrom(
                   foregroundColor: Colors.white,
                   backgroundColor: Colors.green[600],
