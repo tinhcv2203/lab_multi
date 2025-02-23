@@ -1,12 +1,11 @@
 🚀 1. Cài đặt  
 Yêu cầu  
 Flutter SDK (Phiên bản mới nhất)  
-Firebase Console (Đã thiết lập Authentication, Firestore, Storage nếu cần)  
 Android Studio hoặc VS Code  
 Các bước cài đặt  
 1️⃣ Clone dự án  
-git clone https://github.com/tinhcv2203/lab-multi.git
-cd lab-multi 
+git clone https://github.com/tinhcv2203/lab-multi.git  
+cd lab-multi  
 2️⃣ Cài đặt dependencies  
 flutter pub get  
 3️⃣Chạy ứng dụng  
